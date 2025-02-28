@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Matter light";
+}
+
+*::selection{
+    color: #fff;
+    background-color: black;
+}
+
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    background-color: #fff;
+}
+
+#home{
+    width: 100%;
+    min-height: 100vh;
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 30px 50px;
+}
+
+#nav img{
+    width: 100px;
+}
+
+#nav #right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+}
+
+#nav a {
+    text-decoration: none;
+    font-weight: 400;
+    color: black;
+    font-size: 1.1vw;
+    letter-spacing: 0px;
+}
+
+#nav i{
+    margin-top: 3px;
+    font-size: 20px;
+}
+
+#home #homemain{
+    width: 100%;
+    padding: 14vw 14vw;
+}
+
+#homemain h1{
+    font-weight: 400;
+    letter-spacing: -.1vw;
+    font-size: 1.44vw;
+}
+
+.headings{
+    display: flex;
+    gap: 40px;
+}
+
+#homemain .headings h1{
+    font-family: "Roboto Slab", serif;
+    color: transparent;
+    -webkit-text-stroke: 1.5px black;
+    /* -webkit-text-stroke-width: 0.1vw; */
+    font-size: 7vw;
+    font-weight: 900;
+    letter-spacing: -7px;
+    line-height: 1;
+}
+
+#homemain .headings h1:hover{
+    color: #000;
+}
+
+#homelast{
+    padding: 5vw 15vw;
+}
+
+#homelast p{
+    font-size: 1.5vw;
+    font-weight: 450;
+    letter-spacing: -.08vw;
+}
+
+#homelast p::selection{
+    color: #fff;
+    background-color: black;
+}
+
+#featured{
+    padding: 10vw 15vw;
+}
+
+.fheading>h1{
+    font-size: 3vw;
+    line-height: 1;
+    font-weight: 400;
+}
+
+.fheading>h1:nth-child(2){
+    color: transparent;
+    -webkit-text-stroke: 1px #000;
+}
+
+#fimages{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height:100vh ;
+    margin-top: 5vw;
+}
+
+#fleft{
+    overflow: hidden;
+    width: 45%;
+    height: inherit;
+}
+
+.fleftelem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: inherit;
+}
+
+.fleftelem h1{
+    font-size: 2.5vw;
+    line-height: 1;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 2vw 0;
+}
+
+.fleftelem h3{
+    font-size: 1.3vw;
+    font-weight: 500;
+}
+
+.fleftelem h4{
+    opacity: .5;
+}
+#fright{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 45%;
+    height: inherit;
+}
+
+#fright .images{
+    width: 90%;
+    height: 90%;
+    background-color: red;
+}
+
+#fright .images img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.btndiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 3vw;
+    
+}
+
+.btndiv button{
+    padding: 1.3vw 2.5vw;
+    border-radius: 100px;
+    border: 2px solid #a9a7a7;
+    background-color: #fff;
+    font-size: 1vw;
+    font-weight: 650;
+    letter-spacing: -.3px;
+}
+
+
+#dev{
+    width: 100%;
+    padding: 5vw 15vw;
+}
+
+#dev h1{
+    font-size: 3.8vw;
+    font-weight: 400;
+    width: 60%;
+    line-height: 1;
+
+}
+
+#dev p{
+    font-size: 1.5vw;
+    margin-top: 3vw;
+    letter-spacing: -.5px;
+    width: 60%;
+}
+
+#slides{
+    padding: 3vw 10vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.slide{
+    width: 30%;
+}
+
+.slide .img{
+    width: 100%;
+    height: 230px;
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: yellow;
+}
+
+.slide .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.slide .tag{
+    width: fit-content;
+    border-radius: 100px;
+    padding: 10px 22px;
+    background-color: #f7f7f7;
+    margin: 20px 0;
+}
+
+.slide h3{
+    font-size: 1.5vw;
+    font-weight: 400;
+    letter-spacing: -.5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #fimages{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+    padding: 10vw;
+    margin-top: 5vw;
+    
+} */
+
+/* #fleft{
+    overflow: auto;
+    width: 45%;
+    height: inherit;
+    border: 2px solid blue;
+}
+
+#fright{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 45%;
+    height: inherit;
+    
+}
+
+#fright .images{
+    width: 90%;
+    height: 90%;
+    background-color: red;
+} */
+
